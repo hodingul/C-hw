@@ -17,6 +17,6 @@ int main(void)
 	double arr[5];
 	printf("Enter 5 real numbers: ");
 	scanf("%lf %lf %lf %lf %lf", &arr[0], &arr[1], &arr[2], &arr[3], &arr[4]);
-	printf("%lf", Std(arr));
+	printf("Standard Deviation = %lf", Std(arr));
 	return 0;
 }
